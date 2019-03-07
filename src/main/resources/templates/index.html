@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vat Table</title>
+</head>
+<body>
+
+<table>
+<tr th:if="countryList"!=null th:text="${country}">
+   <td th:text="${country.getName}"></td>
+</tr>
+</table>
+
+</body>
+</html>
